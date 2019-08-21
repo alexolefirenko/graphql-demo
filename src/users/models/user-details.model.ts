@@ -30,20 +30,20 @@ export class UserDetails {
   bio?: string;
 
   @Field(() => Int)
-  public_repos: 61;
+  public_repos: number;
 
   @Field(() => Int)
-  public_gists: 62;
+  public_gists: number;
 
   @Field(() => Int)
-  followers: 21600;
+  followers: number;
 
   @Field(() => Int)
-  following: 11;
+  following: number;
 
   @Field()
-  created_at: '2007-10-20T05:24:19Z';
+  created_at: string;
 
   @Field()
-  updated_at: '2019-08-19T19:50:56Z';
+  updated_at: string;
 }
